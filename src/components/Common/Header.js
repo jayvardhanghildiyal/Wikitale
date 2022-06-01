@@ -12,7 +12,7 @@ class Header extends Component{
                        <div className="masthead-subheading">{this.props.title}</div>
                        <div className="masthead-heading text-uppercase">{this.props.subtitle}</div>
                        {this.props.showButton &&
-                        <Link className="btn btn-primary btn-xl text-uppercase" to={this.props.link}>{this.props.buttonText}</Link>
+                        <a className="btn btn-primary btn-xl text-uppercase" href={this.props.link} target = "_blank">{this.props.buttonText}</a>
                        }
                        </div>
                 </header>

@@ -6,20 +6,10 @@ class Team extends Component{
             <section className="page-section bg-light" id="team">
             <div className="container">
                 <div className="text-center">
-                    <h2 className="section-heading text-uppercase">Our Amazing Team</h2>
-                    <h3 className="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 className="section-heading text-uppercase">The Dev Team !</h2>
+                    <h3 className="section-subheading text-muted">The amazing dev team that provided us with this wonderful game :D</h3>
                 </div>
                 <div className="row">
-                    <div className="col-lg-4">
-                        <div className="team-member">
-                            <img className="mx-auto rounded-circle" src="img/team/1.jpg" alt="..." />
-                            <h4>Parveen Anand</h4>
-                            <p className="text-muted">Lead Designer</p>
-                            <a className="btn btn-dark btn-social mx-2" href="#!"><i className="fab fa-twitter"></i></a>
-                            <a className="btn btn-dark btn-social mx-2" href="#!"><i className="fab fa-facebook-f"></i></a>
-                            <a className="btn btn-dark btn-social mx-2" href="#!"><i className="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
                     <div className="col-lg-4">
                         <div className="team-member">
                             <img className="mx-auto rounded-circle" src="img/team/2.jpg" alt="..." />
