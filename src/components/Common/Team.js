@@ -1,10 +1,19 @@
 import React, {Component} from 'react';
-
+import Header from '../Common/Header';
+import image from '../assets/img/about.jpg'
+import Clients from './Clients';
 
 class Team extends Component{
     render(){
         return(
-            <section className="page-section bg-light" id="team">
+            <div>
+                <Header 
+                    title = "Undertale"
+                    subtitle = "A Game I Love!"
+                    showButton = {false}
+                    image = {image}
+                />
+                <section className="page-section bg-light" id="team">
             <div className="container">
                 <div className="text-center">
                     <h2 className="section-heading text-uppercase">The Dev Team !</h2>
@@ -34,8 +43,15 @@ class Team extends Component{
                 <div className="row">
                     <div className="col-lg-8 mx-auto text-center"><p className="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p></div>
                 </div>
+             </div>
+            </section>
+
+            <Clients
+                
+
+                />
             </div>
-        </section>
+            
 
         );
     }

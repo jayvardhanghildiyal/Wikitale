@@ -1,5 +1,9 @@
 import React, {Component} from 'react';
 import PortfolioItem from './PortfolioItem.js';
+import Clients from './Clients.js';
+
+import Header from '../Common/Header';
+import image from '../assets/img/about.jpg'
 
 import img1 from "../assets/img/portfolio/1.jpg";
 import img2 from "../assets/img/portfolio/2.jpg";
@@ -20,19 +24,34 @@ const portfolio = [
 class Portfolio extends Component{
     render(){
         return(
+            <div>
+                <Header 
+                    title = "Undertale"
+                    subtitle = "A Game I Love!"
+                    showButton = {false}
+                    image = {image}
+                />
+
             <section className="page-section bg-light" id="portfolio">
-            <div className="container">
-                <div className="text-center">
-                    <h2 className="section-heading text-uppercase">Portfolio</h2>
-                    <h3 className="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                <div className="container">
+                    <div className="text-center">
+                        <h2 className="section-heading text-uppercase">Portfolio</h2>
+                        <h3 className="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    </div>
+                    <div className="row">                  
+                    {portfolio.map((item, index) => {
+                        return <PortfolioItem {...item} key = {index} />
+                    })}
+                    </div>
                 </div>
-                <div className="row">                  
-                {portfolio.map((item, index) => {
-                    return <PortfolioItem {...item} key = {index} />
-                })}
-                </div>
+            </section>
+
+            <Clients
+                
+
+                />
             </div>
-        </section>
+            
         )
     }
 }

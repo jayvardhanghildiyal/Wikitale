@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import Header from '../Common/Header';
 import image from '../assets/img/about.jpg'
+import Clients from '../Common/Clients';
 
 class About extends Component{
     render(){
@@ -73,6 +74,10 @@ class About extends Component{
                 </ul>
             </div>
         </section>
+                <Clients
+                
+
+                />
             </div>
             
         );

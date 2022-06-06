@@ -28,20 +28,6 @@ class Home extends Component{
                     
                 />
 
-                <Portfolio
-                
-
-                />
-
-                <Timeline
-
-
-                />
-
-                <Team
-
-                />
-
                 <Clients
                 
 

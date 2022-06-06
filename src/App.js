@@ -6,6 +6,8 @@ import { connect }from "react-redux";
 //Pages
 import Home from "./components/Pages/Home.js";
 import About from "./components/Pages/About.js";
+import Portfolio from './components/Common/Portfolio.js';
+import Team from './components/Common/Team.js';
 import Contact from "./components/Pages/Contact .js";
 import Login from './components/Pages/Login.js';
 
@@ -150,6 +152,24 @@ class App extends Component {
               render = {props => (
                 <PageWrapper>
                   <About {...props}/>
+                </PageWrapper>
+              )}
+            />
+
+            <Route
+                path = "/portfolio"
+                render = {props => (
+                  <PageWrapper>
+                    <Portfolio {...props}/>
+                  </PageWrapper>
+                )}
+              />
+
+            <Route 
+              path = "/team"
+              render = {props => (
+                <PageWrapper>
+                  <Team {...props}/>
                 </PageWrapper>
               )}
             />
