@@ -24,8 +24,8 @@ class Contact extends Component{
             <section className="page-section" id="contact">
             <div className="container">
                 <div className="text-center">
-                    <h2 className="section-heading text-uppercase">Contact Us</h2>
-                    <h3 className="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 className="section-heading text-uppercase">Contact Me!</h2>
+                    <h3 className="section-subheading text-muted">And I shall get back to you !</h3>
                 </div>
             
                 <form id="contactForm" data-sb-form-api-token="API_TOKEN" onSubmit = {this.props.handleSubmit}>
@@ -81,23 +81,23 @@ export default withFormik({
         //all of these functions are pre-made ready to be implemented!
         name: Yup
             .string()
-            .min(3, "C'mon fam, your name is longer then that...")
+            .min(3, "Surely your name is longer than that...")
             .required('You must give us your name!'),
         email: Yup
             .string()
             .email("You need to enter a valid email!")
-            .required("We need you to enter an email address"),
+            .required("I need you to enter an email address"),
         phone: Yup
             .string()
             .min(10, "Please provide a valid 10 digit phone number!")
             .max(15, "Your phone number is too long!")
-            .required("We need a phone number to reach ya!"),
-        message: Yup.string().min(5, "You need to provide a more detailed essay about yourself!").required("You need to enter a few words about your problem!")
+            .required("I need a phone number to reach you!"),
+        message: Yup.string().min(5, "You need to provide a more detailed essay about yourself!").required("You need to tell me something :/!")
     }),
     
     //called when the form submits
     handleSubmit: (values, {setSubmitting}) => {
-        alert("you have submitted the form! ayas");
+        alert("You have submitted the form!");
     }
 })(Contact);
 

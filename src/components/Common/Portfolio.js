@@ -3,7 +3,7 @@ import PortfolioItem from './PortfolioItem.js';
 import Clients from './Clients.js';
 
 import Header from '../Common/Header';
-import image from '../assets/img/about.jpg'
+import image from '../assets/img/chara.jpg'
 
 import img1 from "../assets/img/portfolio/1.jpg";
 import img2 from "../assets/img/portfolio/2.jpg";
@@ -35,8 +35,8 @@ class Portfolio extends Component{
             <section className="page-section bg-light" id="portfolio">
                 <div className="container">
                     <div className="text-center">
-                        <h2 className="section-heading text-uppercase">Portfolio</h2>
-                        <h3 className="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                        <h2 className="section-heading text-uppercase">Characters</h2>
+                        <h3 className="section-subheading text-muted">Notable and iconic characters in the Undertale cast !</h3>
                     </div>
                     <div className="row">                  
                     {portfolio.map((item, index) => {

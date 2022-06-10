@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import Header from '../Common/Header';
-import image from '../assets/img/about.jpg'
+import image from '../assets/img/head.png'
 import Clients from './Clients';
 
 class Team extends Component{
@@ -41,7 +41,7 @@ class Team extends Component{
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-lg-8 mx-auto text-center"><p className="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p></div>
+                    <div className="col-lg-8 mx-auto text-center"><p className="large text-muted">This page is dedicated to the main leads who helped in the development of the game.</p></div>
                 </div>
              </div>
             </section>
