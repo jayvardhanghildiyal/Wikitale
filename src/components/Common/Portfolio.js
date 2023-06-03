@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import PortfolioItem from './PortfolioItem.js';
 import Clients from './Clients.js';
 
-import Header from '../Common/Header';
+import Header from './Header.js';
 import image from '../assets/img/chara.jpg'
 
 import img1 from "../assets/img/portfolio/1.jpg";
