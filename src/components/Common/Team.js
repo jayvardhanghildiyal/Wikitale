@@ -29,11 +29,11 @@ class Team extends Component{
                             <a className="btn btn-dark btn-social mx-2" href="https://fwugradiation.tumblr.com/"><i className="fab fa-tumblr"></i></a>
                         </div>
                     </div>
-                    <div className="col-lg-4">
+                    <div className="col-lg-6">
                         <div className="team-member">
                             <img className="mx-auto rounded-circle" src="img/team/tcc.png" alt="Temmie Chang" />
                             <h4>Temmie Chang</h4>
-                            <p className="text-muted">Lead Artist</p>
+                            <p className="text-muted">Lead Illustrator, Overworld Character Design, Lead Artist</p>
                             <a className="btn btn-dark btn-social mx-2" href="https://twitter.com/tuyoki" target = "_blank"><i className="fab fa-twitter"></i></a>
                             <a className="btn btn-dark btn-social mx-2" href="https://www.facebook.com/TemmieC" target = "_blank"><i className="fab fa-facebook-f"></i></a>
                             <a className="btn btn-dark btn-social mx-2" href="https://www.instagram.com/tuyoki/" target = "_blank"><i className="fab fa-instagram"></i></a>
