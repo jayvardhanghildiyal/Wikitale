@@ -5,20 +5,28 @@ import Clients from './Clients.js';
 import Header from './Header.js';
 import image from '../assets/img/chara.jpg'
 
-import img1 from "../assets/img/portfolio/1.jpg";
-import img2 from "../assets/img/portfolio/2.jpg";
-import img3 from "../assets/img/portfolio/3.jpg";
-import img4 from "../assets/img/portfolio/4.jpg";
-import img5 from "../assets/img/portfolio/5.jpg";
-import img6 from "../assets/img/portfolio/6.jpg";
+import img1 from "../assets/img/portfolio/toriel.png";
+import img2 from "../assets/img/portfolio/papyrus.png";
+import img3 from "../assets/img/portfolio/sans.jpg";
+import img4 from "../assets/img/portfolio/undyne.png";
+import img5 from "../assets/img/portfolio/alphys.png";
+import img6 from "../assets/img/portfolio/temmie.png";
+import img7 from "../assets/img/portfolio/mettaton.png";
+import img8 from "../assets/img/portfolio/asgore.png";
+import img9 from "../assets/img/portfolio/asriel.png";
+import img10 from "../assets/img/portfolio/muffet.png";
 
 const portfolio = [
-    {title: "Threads", subtitle: "Illustration", image: img1},
-    {title: "Explore", subtitle: "Graphic Design", image: img2},
-    {title: "Finish", subtitle: "Identity", image: img3},
-    {title: "Lines", subtitle: "Branding", image: img4},
-    {title: "SouthWest", subtitle: "Website Design", image: img5},
-    {title: "Window", subtitle: "Photography", image: img6}
+    {title: "Toriel", subtitle: "Knows the best for you.", image: img1},
+    {title: "Papyrus", subtitle: "Nyeh heh heh!", image: img2},
+    {title: "Sans", subtitle: "The easiest enemy. Can only deal 1 damage.", image: img3},
+    {title: "Undyne", subtitle: "The heroine that NEVER gives up.", image: img4},
+    {title: "Alphys", subtitle: "Basement Dweller.", image: img5},
+    {title: "Temmie", subtitle: "RATED TEM OUTTA TEM. Loves to pet cute humans. But you're allergic!", image: img6},
+    {title: "Mettaton", subtitle: "Fabulous!", image: img7},
+    {title: "Asgore", subtitle: "King Fluffybuns.", image: img8},
+    {title: "Asriel", subtitle: "The Poor Prince.", image: img9},
+    {title: "Muffet", subtitle: "If she invites you to her parlor, excuse yourself.", image: img10}
 ];
 
 class Portfolio extends Component{
@@ -30,6 +38,7 @@ class Portfolio extends Component{
                     subtitle = "A Game I Love!"
                     showButton = {false}
                     image = {image}
+                    st
                 />
 
             <section className="page-section bg-light" id="portfolio">

@@ -25,8 +25,8 @@ class Services extends Component{
             <section class="page-section" id="services">
                 <div class="container">
                     <div class="text-center">
-                        <h2 class="section-heading text-uppercase">The Eight Human Souls</h2>
-                        <h3 class="section-subheading text-muted">The Eight Humans are the humans from the Surface who fell through the Barrier on Mount Ebott into the Underground. Among them are the first human, the protagonist, and the six other human SOULs that Asgore has collected.</h3>
+                        <h2 class="section-heading text-uppercase">The Seven Human Souls</h2>
+                        <h3 class="section-subheading text-muted">The Seven Humans are the humans from the Surface who fell through the Barrier on Mount Ebott into the Underground. Among them are the first human, the protagonist, and the six other human souls that Asgore has collected.</h3>
                     </div>
                     <div class="row text-center">
                         {services.map((service, index) => {
