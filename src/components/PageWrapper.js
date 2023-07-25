@@ -20,7 +20,7 @@ class PageWrapper extends Component {
                         {/* <li className="nav-item"><Link className="nav-link" to="/services">Services</Link></li> */}
                         <li className="nav-item"><Link className="nav-link" to="/portfolio">Characters</Link></li>
                         <li className="nav-item"><Link className="nav-link" to="/about">About</Link></li>
-                        <li className="nav-item"><Link className="nav-link" to="/team">Team</Link></li>
+                        <li className="nav-item"><Link className="nav-link" to="/team">Dev Team</Link></li>
                         <li className="nav-item"><Link className="nav-link" to="/contact">Contact</Link></li>
                     </ul>
                 </div>
