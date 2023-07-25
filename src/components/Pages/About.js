@@ -21,7 +21,7 @@ class About extends Component{
                 </div>
                 <ul className="timeline">
                     <li>
-                        <div className="timeline-image"><img className="img-fluid mx-auto d-block" src="" alt="..." /></div>
+                        <div className="timeline-image"><img className="img-fluid" src="img/about/1.png" alt="..." /></div>
                         <div className="timeline-panel">
                             <div className="timeline-heading">
                                 <h4></h4>
@@ -31,7 +31,7 @@ class About extends Component{
                         </div>
                     </li>
                     <li className="timeline-inverted">
-                        <div className="timeline-image"><img className="rounded-circle img-fluid" src="" alt="..." /></div>
+                        <div className="timeline-image"><img className="rounded-circle img-fluid" src="img/about/undyne0.jpg" alt="..." /></div>
                         <div className="timeline-panel">
                             <div className="timeline-heading">
                                 <h4></h4>
@@ -47,7 +47,7 @@ class About extends Component{
                         </div>
                     </li>
                     <li>
-                        <div className="timeline-image"><img className="rounded-circle img-fluid" src="" alt="..." /></div>
+                        <div className="timeline-image"><img className="rounded-circle img-fluid" src="img/about/alphys1.jpg" alt="..." /></div>
                         <div className="timeline-panel">
                             <div className="timeline-heading">
                                 <h4></h4>
@@ -61,7 +61,7 @@ class About extends Component{
                         </div>
                     </li>
                     <li className="timeline-inverted">
-                        <div className="timeline-image"><img className="rounded-circle img-fluid" src="" alt="..." /></div>
+                        <div className="timeline-image"><img className="img-fluid" src="img/about/napstablook.png" alt="..." /></div>
                         <div className="timeline-panel">
                             <div className="timeline-heading">
                                 <h4></h4>
