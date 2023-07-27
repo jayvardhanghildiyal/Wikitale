@@ -5,7 +5,7 @@ class SingleService extends Component{
         return(
             <div className="col-md-4">
                 <span className="fa-stack fa-4x">
-                <img src = {this.props.icon}/>
+                <img className ="humanheart" src = {this.props.icon}/>
                 </span>
                 <h4 className="my-3">{this.props.trait}</h4>
                 <p className="text-muted">{this.props.description}</p>
